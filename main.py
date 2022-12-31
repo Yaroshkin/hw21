@@ -16,10 +16,12 @@ class Numbers:
         self.d = d
 
     def sumNum(self):
-        return sum(self.a, self.b, self.c, self.d)
+        s = (self.a, self.b, self.c, self.d)
+        return sum(s)
 
     def sredNum(self):
-        return sum(self.a, self.b, self.c, self.d)/4
+        s = (self.a, self.b, self.c, self.d)
+        return sum(s)/4
 
     def maxNum(self):
         return max(self.a, self.b, self.c, self.d)
